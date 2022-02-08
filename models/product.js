@@ -10,11 +10,11 @@ const productSchema = new mongoose.Schema({
         required:[true, 'Must include product price'],
     },
     featured:{
-        type:Boolean,
+        type: Boolean,
         default:false,
     },
     rating:{
-        type:Number,
+        type: Number,
         default: 4.5,
     },
     createdAt:{
